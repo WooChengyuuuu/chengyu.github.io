@@ -36,7 +36,7 @@
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Hi, I'm Chengyu Wu.</h1>
-							<p>This page is my portfolio including my projects in course <a href="https://www.eecs494.com/">EECS 494</a>, EECS 498-003 and personal projects.</p>
+							<p>This page is my portfolio including my projects during my study at University of Michigan.</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Click here to view my projects</a></li>
 							</ul>
@@ -84,8 +84,8 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Project 3: ElectriKitty</h2>
-									<p>In this project, we developed a 2D platformer game during a period of a month and two weeks. We arranged multiple playtests in University of Michigan, collected feedback and made changes to our game.
-										In this platformer game, players will play as a cat mastering the mystic power of electricity.
+									<p>In this project, we designed and developed 2D platformer game Electrikitty. I wrote scripts for enemy AI and made in-game tutorials. We arranged multiple playtests in University of Michigan, collected feedback and made changes to our game. 
+										In this platformer game, players will play as a cat mastering the mystic power of electricity. 
 										The two core mechanics of the game is climbing and electrical power. The cat can climb on walls or ceilings, as well as do wall jump. 
 										Electrical power helps cat to attract magnetic objects or to repel itself from magnetic objects.
 									</p>
@@ -100,13 +100,15 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Project 4: Zombie Outbreak</h2>
-									<p>Zombie Outbreak is a board game I designed with 3 other students. It is a turn-based board game where players 
+									<p>Zombie Outbreak is a 4-player board game that I designed with 3 other students. It is a turn-based board game where players 
 										move on the map, kill zombies, find cure for zombie virus and save the world. The core mechanic of the game is random effects. 
-										These effects are decided by drawing cards from an infection deck and an effect deck. In the link, a google doc is provided, including some of our work schedule, 
+										These effects are decided by drawing cards from an infection deck and an effect deck. 
+										We analyzed the board game, performed inaccessibility breakdown on the game to update rules and change game components. We also arranged local playtest and collected feedback from players. 
+										In the link below, a google doc is provided, including some of our work schedule, 
 										our rulebook draft and our final rulebook.
 									</p>
 									<ul class="actions">
-										<li><a href="https://docs.google.com/document/d/1p5qz3KM_m3Cz8Pgzs7tkFXeWn4Yx4Jaeh-9lqlEv9sU/edit?usp=sharing" target="_blank" class="button">Click here to view rulebook!</a></li>
+										<li><a href="https://docs.google.com/document/d/1p5qz3KM_m3Cz8Pgzs7tkFXeWn4Yx4Jaeh-9lqlEv9sU/edit?usp=sharing" target="_blank" class="button">Click here to view our rulebooks!</a></li>
 									</ul>
 								</div>
 							</div>
@@ -116,10 +118,11 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Project 5: CSE Simulator</h2>
-									<p>CSE Simulator is a 3-week VR project based on Unreal Engine 5. In this project I cooperated with another student. We realized VR remote visit to the CSE study room of our University. 
+									<p>CSE Simulator is a 3-week VR project based on Unreal Engine 5. In this project I cooperated with another student. We rebuilt CSE study room in a VR scene. 
 										In addition to just looking around, players can interact with light, fire alarms and copy machines via their controller. 
-										We created a interactive object class and overrode it to create different interactions.
-										Easter eggs are added to the game. Players can listen to NPCs talking, control their fighting or even grab a katana and destroy the study room.
+										We added custom functions to controller scripts to realize ray cast detection. We created classes to realize ray cast interaction and collision trigger events. 
+										Easter eggs are added to the game. Players can listen to NPCs talking, control their fighting or even grab a katana and destroy the study room. 
+										This project realizes VR remote visit to the CSE study room and has the potential to reduce cost of visiting our University.
 									</p>
 									<ul class="actions">
 										<li><a href="https://youtu.be/tYbSUSBlEAs" target="_blank" class="button">Click here to view video demonstration!</a></li>
@@ -132,11 +135,13 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Project 6: Ann Arbor Go</h2>
-									<p>Ann Arbor Go is a 3-week AR project based on Unity Engine. We created a digital tour guide of Ann Arbor based on Mapbox GPS service.  
+									<p>Ann Arbor Go is a 3-week AR project based on Unity Engine. We created a digital tour guide of Ann Arbor based on Mapbox GPS service. 
 										We added functions similar to popular AR game Pokemon Go. We used map service from Mapbox to get the real world location of players and adjust player location in unity scene according to it. 
-										We also designed AR interactions. Players can walk to landmarks, scan landmark images to spawn models and get currency. They can use currency to buy seeds and plant trees to real world using AR. 
-										As the tree grow up, players will get more currency to buy new trees.
-										We design data storage class to hold data between scenes. This class realizes the appearance of a same tree both on map and in AR scene.  
+										We designed AR interactions. We realized object spawning, image tracking and mini games in Unity AR. We designed inventory and currency systems for tree-planting mini games. 
+										Players can walk to interactive digital landmarks, scan landmark images to spawn models and get currency. They can use currency to buy seeds and plant trees to real world using AR. 
+										As the tree grow up, players will get more currency to buy new trees. 
+										We also designed data storage class to hold data between scenes. This class realizes the appearance of a same tree both on map and in AR scene. 
+										This app can help visitors learn about the history and development of Ann Arbor city as well as University of Michigan.
 									</p>
 									<ul class="actions">
 										<li><a href="https://youtu.be/yoqyxDHlX3Q" target="_blank" class="button">Click here to view video demonstration!</a></li>
@@ -151,10 +156,11 @@
 									<h2>Project 7: Move AR</h2>
 									<p>Move AR is a 4-week AR project based on Unity Engine. Move AR is a physical exercise app. It is designed for teaching users correct form of different exercises. 
 										The app shows models in AR space to allow user to observe moves from any direction, with part of the models highlighted 
-										to tell which part of body is getting exercised. It also supports 
-										user facing camera for users want to compare their moves with the model. 
-										We tried motion capture to get animations. As not all motion capture moves work well in unity, we added animations 
-										from Mixamo.
+										to tell which part of body is getting exercised. 
+										For modols and animations, my partners used Shogun to get animations in motion capture labs. Then I edited models in Blender, added models to Unity, assigned animations and designed model highlighting algorithms and generated models in AR scene. 
+										This app also supports user facing camera for users want to compare their moves with the model. I designed algorithm for switching device cameras in Unity AR foundation. 
+										This app not only provides users a 3D observation of different moves in Unity AR scene, but also realizes comparison of user and model by placing model in user facing camera. 
+										We believe this app can help users learn correct forms of physical exercise.
 									</p>
 									<ul class="actions">
 										<li><a href="https://pnhalim.wixsite.com/move-ar" target="_blank" class="button">Click here to view our website!</a></li>
@@ -171,9 +177,9 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Project 1: Steam review analysis</h2>
-									<p>In this project, I loaded Steam review dataset from Kaggle in Rstudio and did some data data analysis. I used linear regression and 
-										hypothesis test to analyze the relationship between the number of helpful mark a review can get and the number of hours the reviewer spent on
-										 that game as well as the word count of the review.
+									<p>In this personal project, I analyzed and cleaned Steam review data in RStudio. 
+										I visualized data distribution used linear regression and applied hypothesis tests to gain relationship between review word count, game hours, and review helpful level. 
+										The result of this project provides insight of Steam community review to game developers.
 									</p>
 									<ul class="actions">
 										<li><a href="FinalProject.pdf" target="_blank" class="button">Click here to view my report!</a></li>
@@ -186,11 +192,11 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Project 2: Credit Card Churn Prediction Based on Spending Behaviors</h2>
-									<p> In this project, I realized credit card churn prediction model. I first did some data cleaning works. 
+									<p> In this project, I realized a credit card churn prediction model. I first did some data cleaning works. 
 										I extracted features on spending behaviors and standardized them as well as dropped outliers in data. 
 										I trained different supervised machine learning models such as Random Forest, K Nearest Neighbors and Logistic Regression to predict credit card churn and compare their performance. 
-										I used cross validation to prevent overfitting and adjust parameters. The models reached a maximum accuracy of 93%. 
-										I check the feature importance from Random Forest model and figure the main contributor to credit card churn.
+										I used cross validation to prevent overfitting and find the best parameters for every model. The models reached a maximum accuracy of 93%. 
+										I checked the feature importance from Random Forest model and found the main contributor to credit card churn.
 									</p>
 									<ul class="actions">
 										<li><a href="Supervised_Learning.pdf" target="_blank" class="button">Click here to view my report!</a></li>
@@ -203,9 +209,9 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Project 3: Customer Clustering based on Relationship with Card Providers</h2>
-									<p>In this project, I trained unsupervised machine learning model to devide credit card users into two categories. I used LDA model to divide 
-										the users to two clusters and analyzed LDA model by comparing with K-means model. 
-										I visualized data clusters using PCA and compared different results of different models.
+									<p>In this project, I designed a credit card user classifier model. I first did some data exploraton, including cleaning and encoding card user data, as well as doing data visualization. 
+										I applied LDA algorithms to user relationship features and analyzed the model by comparing with K-means model and visualizing clusters of users using PCA. 
+										This model divided credit card users into two categories.
 									</p>
 									<ul class="actions">
 										<li><a href="Unsupervised_Learning.pdf" target="_blank" class="button">Click here to view the first part of report!</a></li>
